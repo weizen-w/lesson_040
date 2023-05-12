@@ -4,6 +4,6 @@ public class Airplane implements CanFly {
 
   @Override
   public String fly() {
-    return "Самолёт летит";
+    return "Самолёт умеет летать";
   }
 }

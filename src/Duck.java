@@ -6,16 +6,16 @@ public class Duck implements CanFly, CanRun, CanSwim {
 
   @Override
   public String fly() {
-    return "Утка летит";
+    return "Утка умеет летать";
   }
 
   @Override
   public String run() {
-    return "Утка бежит";
+    return "Утка умеет бегать";
   }
 
   @Override
   public String swim() {
-    return "Утка плывёт";
+    return "Утка умеет плавать";
   }
 }

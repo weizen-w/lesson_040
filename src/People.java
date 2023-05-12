@@ -5,11 +5,11 @@ public class People implements CanRun, CanSwim {
 
   @Override
   public String run() {
-    return "Человек бежит";
+    return "Человек умеет бежать";
   }
 
   @Override
   public String swim() {
-    return "Человек плывёт";
+    return "Человек умеет плавать";
   }
 }
