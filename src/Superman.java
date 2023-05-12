@@ -11,7 +11,7 @@ public class Superman implements CanFly, CanRun, CanSwim {
 
   @Override
   public String run() {
-    return "Супермен умеет бежать";
+    return "Супермен умеет бегать";
   }
 
   @Override

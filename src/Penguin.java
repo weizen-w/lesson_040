@@ -5,7 +5,7 @@ public class Penguin implements CanRun, CanSwim {
 
   @Override
   public String run() {
-    return "Пингвин умеет бежать";
+    return "Пингвин умеет бегать";
   }
 
   @Override
