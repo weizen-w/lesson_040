@@ -39,7 +39,7 @@ public class Main {
     System.out.println("Main.makeThemFly(flyable=" + flyable + ")");
     for (CanFly flyableObject : flyable) {
       System.out.println(flyableObject + ".fly()");
-      flyableObject.fly();
+      System.out.println(flyableObject.fly());
     }
   }
 
@@ -47,7 +47,7 @@ public class Main {
     System.out.println("Main.makeThemRun(runable=" + runable + ")");
     for (CanRun runableObject : runable) {
       System.out.println(runableObject + ".run()");
-      runableObject.run();
+      System.out.println(runableObject.run());
     }
   }
 
@@ -55,7 +55,7 @@ public class Main {
     System.out.println("Main.makeThemSwim(swimmable=" + swimmable + ")");
     for (CanSwim swimmableObject : swimmable) {
       System.out.println(swimmableObject + ".swim()");
-      swimmableObject.swim();
+      System.out.println(swimmableObject.swim());
     }
   }
 }
